@@ -5,15 +5,13 @@ int LED = 13;
 #include <Servo.h>
 Servo s;
 Servo s2;
-#include <AFMotor.h>
-AF_DCMotor motor(1);
-AF_DCMotor motor1(4);
+
 const int Motor_L_F = 2;
 const int Motor_L_B = 3;
 const int Motor_R_F = 4;
 const int Motor_R_B = 5;
 void setup() {
-     motor1.run(RELEASE);
+     
 }
 void loop() {
  if (mySerial.available())
